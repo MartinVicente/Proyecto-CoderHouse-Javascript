@@ -33,6 +33,152 @@ function precioTarjeta(precio, cantidad){
     return total;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+let botonComprar = document.getElementsByClassName("buy_bt");
+
+
+
+
+localStorage.setItem("carrito", JSON.stringify(productos));
+
+let carrito = [];
+let boton = document.getElementById("Eliminar");
+let carritoStorage = localStorage.getItem("carrito");
+
+if(carritoStorage){
+    carrito = JSON.parse(carritoStorage);
+}else{
+    let div = document.createElement("div");
+    div.innerHTML = "El carrito está vacío";
+    document.body.append(div);
+}
+
+carrito.forEach(item => {
+    let div = document.createElement("div");
+    div.innerHTML= `
+        <h2>ID: ${item.id}</h2>
+        <p>Nombre: ${item.nombre}</p>
+        <b>Precio: ${item.precio}</b>
+        <hr/>
+    `;
+    document.body.append(div);
+});
+
+boton.addEventListener("click", () => {
+    localStorage.clear();
+    alert("Carrito eliminado");
+    location.reload(); //recarga la página sin tener que darle F5, para que me tome cambios como borrar el carrito o cosas así
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+let div1 = document.getElementById("fashion_section");
+let parrafo1 = document.createElement("p");
+parrafo1.innerHTML = "<p> Lo que va en el carrito </p>"
+div1.append(parrafo1);
+
+
+let div2 = document.getElementById("electronic_section");
+let parrafo2 = document.createElement("p");
+parrafo2.innerHTML = "<p> Lo que va en el carrito </p>"
+div2.append(parrafo2);
+
+
+let div3 = document.getElementById("jewellery_section");
+let parrafo3 = document.createElement("p");
+parrafo3.innerHTML = "<p> Lo que va en el carrito </p>"
+div3.append(parrafo3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Prompts y alerts
 let seccion = prompt("Bienvenido! Por favor, ingrese el número de la sección a la que desea ingresar: 1- Indumentaria, 2-Electrónica, 3-Joyería");
 
@@ -133,3 +279,4 @@ if(seccion == 1){
         }
     }
 }
+*/
